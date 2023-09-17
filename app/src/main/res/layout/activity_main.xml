@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="43dp"
+                android:layout_y="32dp"
+                android:background="#59DBEC"
+                android:text="Student Details"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#DD2323"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                android:visibility="visible"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="23dp"
+                android:layout_y="110dp"
+                android:text="Enter Roll no"
+                android:textSize="24sp"/>
+            <EditText
+                android:id="@+id/Rollno"
+                android:layout_x="175dp"
+                android:layout_y="160dp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textSize="28sp"/>
+        </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="20dp"
+            android:layout_y="160dp"
+            android:text="Enter Name"
+            android:textSize="24sp"/>
+        <EditText
+            android:id="@+id/Name"
+            android:layout_x="175dp"
+            android:layout_y="160dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textSize="28sp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="23dp"
+            android:layout_y="110dp"
+            android:text="Enter Marks"
+            android:textSize="24sp"/>
+        <EditText
+            android:id="@+id/Marks"
+            android:layout_x="175dp"
+            android:layout_y="160dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textSize="28sp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/Insert"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_x="25dp"
+            android:layout_y="40dp"
+            android:text="Insert"
+            android:textSize="24sp"/>
+        <Button
+            android:id="@+id/Delete"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_x="25dp"
+            android:layout_y="40dp"
+            android:text="Insert"
+            android:textSize="24sp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/Update"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_x="25dp"
+            android:layout_y="40dp"
+            android:text="Insert"
+            android:textSize="24sp"/>
+        <Button
+            android:id="@+id/View"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_x="25dp"
+            android:layout_y="40dp"
+            android:text="Insert"
+            android:textSize="24sp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/ViewAll"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_x="25dp"
+            android:layout_y="40dp"
+            android:text="Insert"
+            android:textSize="24sp"/>
+
+    </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
