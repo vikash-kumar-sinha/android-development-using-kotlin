@@ -90,6 +90,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                   showMessage("Error", "Invalid rollno");
               }
               clearText();
+              meApp();
 
           }
 
@@ -100,3 +101,5 @@ public void showMessage(String title,String message){
         Builder builder=new Builder(this);
     }
 }
+
+public void meApp(){showMessage("e","ia ma done");}
